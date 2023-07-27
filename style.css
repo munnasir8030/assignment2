@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+margin: 0;
+padding: 0;
+outline: 0;
+}
+
+/* header area here */
+
+
+.headerarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+color: #16ee16;
+}
+
+
+.textarea {
+   display: flex;
+  text-decoration: none;
+  list-style: none;
+  gap: 8px;
+  font-size: 14px; 
+
+}
+
+.textarea > li:hover {
+  cursor: pointer;
+  background-color: orange;
+  
+}
+
+.textarea > li {
+  border-radius: 4px;
+  padding: 0px 10px;
+
+}
+
+.header1 {
+
+display: flex;
+  
+}
+.color{
+color: black;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
