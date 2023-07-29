@@ -151,10 +151,6 @@ margin-top: 30px;
 
 }
 
-.productletter p{
-/* font-size: 12px; */
-
-}
 
 .productletter h2{
 color: #19CE67;
@@ -189,6 +185,7 @@ box-shadow: 0px 0px 16px 2px lightgray;
 .productarea h4{
 color: #19CE67;
 font-size: 11px;
+
 }
 
 .productarea p{
@@ -223,7 +220,7 @@ margin-bottom: 5px;
 border-radius: 0px 0px 6px 6px;
 background-color: #19CE67;
 color: white;
-/* font-size: 10px; */
+font-size: 10px;
 border: none;
 padding: 2px;
 
@@ -269,7 +266,7 @@ border: 1px solid lightgray;
 }
 
 .doctorcard{
-
+/* display: flex; */
   display: grid ;
   grid-template-columns: auto auto auto auto; 
   gap: 10px;
@@ -284,7 +281,7 @@ border: 1px solid lightgray;
 }
 
 .doctorarea p{
-/* font-size: 10px; */
+font-size: 10px;
 margin-top: 5px;
 }
 
@@ -310,6 +307,7 @@ padding: 0px 10px;
   border-radius: 5px;
   border: 1px solid lightgray;
   padding-bottom: 5px;
+
 }
 
 
@@ -328,7 +326,7 @@ padding: 0px 7px;
 
 .displaycontent p{
   margin-top: 7px;
-/* font-size: 10px; */
+font-size: 10px;
 padding: 0px 7px;
 }
 
@@ -348,6 +346,7 @@ border: none;
 color: #19CE67;
 background-color: white;
 padding: 0px 5px;
+
 }
 
 /* footer area here */
