@@ -137,7 +137,7 @@ color: #19CE67;
 }
 
 .bannersection p{
-font-size: 12px;
+/* font-size: 12px; */
 margin-top: 10px;
 }
 
@@ -172,6 +172,7 @@ width: 100px;
 }
 
 .productarea{
+  height: 270px;
 background-color: rgba(243, 238, 238, 0.573);
 text-align: center;
 border-radius: 5px 5px 9px 9px ;
@@ -261,6 +262,7 @@ background-color: red;
 /* doctor area here */
 
 .doctorarea{
+  height: 230px;
   background-color: rgba(243, 238, 238, 0.573);
   text-align: center;
   border-radius: 5px;
@@ -284,7 +286,7 @@ border: 1px solid lightgray;
 }
 
 .doctorarea p{
-font-size: 10px;
+/* font-size: 10px; */
 margin-top: 5px;
 }
 
@@ -307,6 +309,8 @@ padding: 0px 10px;
 }
 
 .displaycontent{
+  /* /* height: 300px; */
+  width: 210px; */
   border-radius: 5px;
   border: 1px solid lightgray;
   padding-bottom: 5px;
@@ -328,7 +332,7 @@ padding: 0px 7px;
 
 .displaycontent p{
   margin-top: 7px;
-font-size: 10px;
+/* font-size: 10px; */
 padding: 0px 7px;
 }
 
