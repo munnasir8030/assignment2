@@ -41,8 +41,7 @@ visibility: hidden;
   text-decoration: none;
   list-style: none;
   gap: 8px;
-  font-size: 14px; 
-  transition: 5s all;
+  font-size: 11px; 
 
 }
 
@@ -71,10 +70,14 @@ color: black;
 
  
 .banner{
+  height: 70vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0.062)),
   url(./image/banner-bg.jpg);
 background-size: cover;
 padding: 30px 100px;
+display: flex;
+align-items: center;
+justify-content: space-around;
 
 }
 
@@ -112,16 +115,22 @@ background-color: red;
 }
 
 .imagehere{
-width: 190px;
+width: 224px;
 
 
 }
 
 .bannersection{
-display: flex;
-align-items: center;
+width: 50%;
 
 }
+
+.imageheader{
+  width: 50%;
+
+
+}
+
 
 .bannersection h1{
 color: #19CE67;
@@ -129,7 +138,7 @@ color: #19CE67;
 }
 
 .bannersection p{
-font-size: 14px;
+font-size: 10px;
 margin-top: 10px;
 }
 
@@ -143,7 +152,7 @@ margin-top: 30px;
 }
 
 .productletter p{
-font-size: 15px;
+font-size: 12px;
 
 }
 
