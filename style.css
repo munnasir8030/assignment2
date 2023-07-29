@@ -172,7 +172,6 @@ width: 100px;
 }
 
 .productarea{
-  height: 270px;
 background-color: rgba(243, 238, 238, 0.573);
 text-align: center;
 border-radius: 5px 5px 9px 9px ;
@@ -262,7 +261,6 @@ background-color: red;
 /* doctor area here */
 
 .doctorarea{
-  height: 230px;
   background-color: rgba(243, 238, 238, 0.573);
   text-align: center;
   border-radius: 5px;
@@ -309,8 +307,6 @@ padding: 0px 10px;
 }
 
 .displaycontent{
-  /* /* height: 300px; */
-  width: 210px; */
   border-radius: 5px;
   border: 1px solid lightgray;
   padding-bottom: 5px;
