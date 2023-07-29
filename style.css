@@ -15,15 +15,17 @@ margin: 0px 100px;
 }
 
 /* header area here */
+
 .navigasionarea{
   margin: 0px 100px;
 
 }
 
 .headerarea {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   color:#19CE67 ;
 margin-top: 7px;
 margin-bottom: 7px;
@@ -41,7 +43,7 @@ visibility: hidden;
   text-decoration: none;
   list-style: none;
   gap: 8px;
-  font-size: 11px; 
+  /* font-size: 11px;  */
 
 }
 
@@ -70,14 +72,13 @@ color: black;
 
  
 .banner{
-  height: 70vh;
 background-image: linear-gradient(rgba(0, 0, 0, 0.034), rgba(0, 0, 0, 0.062)),
   url(./image/banner-bg.jpg);
 background-size: cover;
-padding: 30px 100px;
+padding: 0px 100px;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: center;
 
 }
 
@@ -115,7 +116,7 @@ background-color: red;
 }
 
 .imagehere{
-width: 224px;
+width: 350px;
 
 
 }
@@ -128,9 +129,7 @@ width: 50%;
 .imageheader{
   width: 50%;
 
-
 }
-
 
 .bannersection h1{
 color: #19CE67;
@@ -138,7 +137,7 @@ color: #19CE67;
 }
 
 .bannersection p{
-font-size: 10px;
+font-size: 12px;
 margin-top: 10px;
 }
 
@@ -149,10 +148,11 @@ margin-top: 10px;
 .productletter{
  text-align: center;
 margin-top: 30px;
+
 }
 
 .productletter p{
-font-size: 12px;
+/* font-size: 12px; */
 
 }
 
@@ -165,6 +165,8 @@ color: #19CE67;
 /* products section here */
 
 .productimage{
+/* width: 100%; */
+height: 150px;
 width: 100px;
 
 }
@@ -221,9 +223,10 @@ margin-bottom: 5px;
 border-radius: 0px 0px 6px 6px;
 background-color: #19CE67;
 color: white;
-font-size: 10px;
+/* font-size: 10px; */
 border: none;
 padding: 2px;
+
 }
 
 .buttonarea:hover{
@@ -435,7 +438,6 @@ display: block;
 }
 .imagehere{
 display: none;
-
 
 }
 .productsection{
